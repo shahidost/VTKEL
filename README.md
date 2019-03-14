@@ -2,5 +2,5 @@ Visual-textual-knowledge-linking (VTKL) dataset, contains documents composed of 
 
 Files:
 
-File 'Introduction.md' describe the introduction of NLTK in details.
+File 'Introduction.md' describe the introduction of NLTK in details. \n
 File 'Incorrect NER and linking mention.xlsx' consists of all error cases which are wrongly extracted by PIKES for NER and entites linking.
