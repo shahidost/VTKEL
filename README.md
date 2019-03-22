@@ -8,4 +8,4 @@ Files:
 
 '300 random images for evaluations -error_free.ttl' consists of VTKL dataset for 300 randomly selected entries for VTKEL task. The error of these 300 images dataset are fixed manually by correcting each incorrect mention process by PIKES.
 
-'VTKL dataset.ttl' consists of VTKL dataset for 31781 images from Flickr30k.
+'https://figshare.com/account/projects/61421/articles/7882781' consists of VTKL dataset for 31781 images from Flickr30k.
