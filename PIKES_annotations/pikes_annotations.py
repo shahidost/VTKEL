@@ -4,7 +4,7 @@ Created on Mon Mar 25, 2019 12:00:40 2019
 
 @author: Shahi Dost (shahidost@gmail.com)
 
-Description: Script is extracting YAGO information from VTKL dataset.
+Description: This python script is extracting PIKES annotations for NER and entitie linking information from VTKL dataset.
 """
 
 ##==> external library(ies)
