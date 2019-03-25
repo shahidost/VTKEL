@@ -32,4 +32,6 @@ For indepth information and exploring VTKL dataset, explore the directories and 
 
 2) **300 random images for evaluations -error_free.ttl** consists of VTKL dataset for 300 randomly selected entries for VTKEL task. The error of these 300 images dataset are fixed manually by selecting each incorrect mention process by PIKES.
 
-3) **[VTKL]**(https://figshare.com/account/projects/61421/articles/7882781) consists of dataset for 31781 images.
+3) **[VTKL]** (https://figshare.com/account/projects/61421/articles/7882781/). consists of dataset for 31781 images.
+
+This site was built using [GitHub Pages](https://pages.github.com/).
