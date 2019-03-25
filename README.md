@@ -15,10 +15,9 @@ In the following example, an image from Flickr30k dataset with corresponding cap
 
 <img width="810" alt="image_info" src="https://user-images.githubusercontent.com/25593410/54940311-ca22a680-4f2a-11e9-8366-7ffa043d1dcf.png">
 
-
+You can easily access our dataset for visual and textual enity recognition and linking for images.
 
 For indepth information and exploring VTKL dataset, explore the directories and files described below.
-
 
 ### Folders:
 1) ***PIKES_annotations*** consist of python script to extract entity mentions process by PIKES for entity recognition and linking.
