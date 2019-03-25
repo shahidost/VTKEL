@@ -2,10 +2,10 @@ Visual-textual-knowledge-linking (VTKL) dataset, contains documents composed of 
 
 Files:
 
-'Introduction.md' describe the introduction of NLTK in details.
+'Introduction.md' describe the NLTK dataset in details.
 
 'Incorrect NER and linking mention.xlsx' consists of all error cases which are wrongly process by PIKES for NER and entites linking for VTKL dataset and the results of our evaluation.
 
-'300 random images for evaluations -error_free.ttl' consists of VTKL dataset for 300 randomly selected entries for VTKEL task. The error of these 300 images dataset are fixed manually by correcting each incorrect mention process by PIKES.
+'300 random images for evaluations -error_free.ttl' consists of VTKL dataset for 300 randomly selected entries for VTKEL task. The error of these 300 images dataset are fixed manually by selecting each incorrect mention process by PIKES.
 
-'https://figshare.com/account/projects/61421/articles/7882781' consists of VTKL dataset for 31781 images from Flickr30k.
+'https://figshare.com/account/projects/61421/articles/7882781' link consists of VTKL dataset for 31781 images from Flickr30k.
