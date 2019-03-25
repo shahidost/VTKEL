@@ -18,7 +18,7 @@ g1=rdflib.ConjunctiveGraph()
 
 g1.parse(vtkl_dataset, format="turtle")
 
-#Sparqle query to process VTKL dataset file for YAGO class extraction 
+#Sparql query to process VTKL dataset for PIKES annotations
 
 ## 
 qres1=g1.query("""
