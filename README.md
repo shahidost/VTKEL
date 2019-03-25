@@ -21,10 +21,10 @@ For indepth information and exploring VTKL dataset, explore the directories and 
 
 
 ### Folders:
-1) ***PIKES_annotations*** this folder consist of python script to extract entity mentions process by PIKES for entity recognition and linking.
-2) ***flickr30k annotation*** this folder consist of flickr annotations and python script for extracting visual and textual information of original Flickr30k.
+1) ***PIKES_annotations*** consist of python script to extract entity mentions process by PIKES for entity recognition and linking.
+2) ***flickr30k annotation*** consist of flickr annotations and python script for extracting visual and textual information of original Flickr30k.
 
 ### Files:
-1) **Incorrect NER and linking mention.xlsx** consists of all error cases which are wrongly process by PIKES for NER and entites linking for VTKL dataset and the results of our evaluation.
-2) **300 random images for evaluations -error_free.ttl** consists of VTKL dataset for 300 randomly selected entries for VTKEL task. The error of these 300 images dataset are fixed manually by selecting each incorrect mention process by PIKES.
-3) [VTKL](https://figshare.com/account/projects/61421/articles/7882781/) consists of dataset for 31781 images.
+1) **300 random images for evaluations -error_free.ttl** consists of VTKL dataset for 300 randomly selected entries for VTKEL task. The error of these 300 images dataset are fixed manually by selecting each incorrect mention process by PIKES.
+2) **Incorrect NER and linking mention.xlsx** consists of all error cases which are wrongly process by PIKES for NER and entites linking for VTKL dataset and the results of our evaluation.
+3) [VTKL](https://figshare.com/account/projects/61421/articles/7882781) consists of dataset for 31781 images.
