@@ -1,4 +1,4 @@
-## Visual-textual-knowledge-linking (VTKL) dataset
+## Visual-Textual-Knowledge Entity Linking (VTKL) dataset
 VTKL dataset, contains documents composed of pictures with five corresponding textual captions for each image. The VTKL dataset is obtained by extending the Flikr30k dataset, designed for visual-textual mention alignment, with links to YAGO ontolgy, one of the largest web knowledge base. These links are obtained automatically by processing each image caption with PIKES, an NLP tool for entity recognition and linking. 
 
 
