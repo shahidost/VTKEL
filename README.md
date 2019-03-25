@@ -1,4 +1,5 @@
-Visual-textual-knowledge-linking (VTKL) dataset, contains documents composed of pictures with five corresponding textual captions for each image. The VTKL dataset is obtained by extending the Flikr30k dataset, designed for visual-textual mention alignment, with links to YAGO ontolgy, one of the largest web knowledge base. These links are obtained automatically by processing each image caption with PIKES, an NLP tool for entity recognition and linking. 
+## Visual-textual-knowledge-linking (VTKL)
+VTKL dataset, contains documents composed of pictures with five corresponding textual captions for each image. The VTKL dataset is obtained by extending the Flikr30k dataset, designed for visual-textual mention alignment, with links to YAGO ontolgy, one of the largest web knowledge base. These links are obtained automatically by processing each image caption with PIKES, an NLP tool for entity recognition and linking. 
 
 
 To understand VTKL dataset consider the documents shown in below Figure, which is composed of one picture and a short sentence (caption) in natural language. From below figure, one can find five visual mentions, shown in coloured rectangles in the picture, and five textual mention, underlined in the text. Of course one could find many more visual mention in the picture, e.g., windows, road, etc. but suppose we are only intersted in the mentions of certain types. Let us consider a knowledge base (e.g. YAGO) that contains knowledge about the named entities e_Vespa, e_Milan, e_Italy, and e_1948 for for 'Vespa', 'Milan', 'Italy' and '1948' respectively. E.g.,scooter (e_Vespa), town (e_Milan), country (e_Italy), and year (e_1948). Suppose also that the knowledge base contains the concepts Man, and Building. Suppose we focus only on the above mentioned concepts.
@@ -19,13 +20,13 @@ In the following example, an image from Flickr30k dataset with corresponding cap
 For indepth information and exploring VTKL dataset, explore the directories and files described below.
 
 
-Folders:
+### Folders:
 
 1) 'PIKES_annotations' this folder consist of python script to extract entity mentions process by PIKES for entity recognition and linking.
 
 2) 'flickr30k annotation' this folder consist of flickr annotations and python script for extracting visual and textual information of original Flickr30k.
 
-Files:
+### Files:
 
 1) 'Incorrect NER and linking mention.xlsx' consists of all error cases which are wrongly process by PIKES for NER and entites linking for VTKL dataset and the results of our evaluation.
 
