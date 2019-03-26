@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NAF xml:lang="en" version="v3">
+  <nafHeader>
+    <fileDesc author="Shahi" title="65567C0" filename="65567C0" />
+    <public publicId="d331" uri="http://vksflickr30k.fbk.edu/resource/65567C0/" />
+    <linguisticProcessors layer="text">
+      <lp name="Stanford CoreNLP" beginTimestamp="2018-12-04T16:15:59.387+0100" endTimestamp="2018-12-04T16:16:00.077+0100" />
+    </linguisticProcessors>
+    <linguisticProcessors layer="naf-filter">
+      <lp name="NAF filter" beginTimestamp="2018-12-04T16:16:00.078+0100" endTimestamp="2018-12-04T16:16:00.080+0100" />
+    </linguisticProcessors>
+  </nafHeader>
+  <raw><![CDATA[A bearded man , and a girl in a red dress are getting married.]]></raw>
+  <text>
+    <wf id="w1" sent="1" para="1" offset="0" length="1">A</wf>
+    <wf id="w2" sent="1" para="1" offset="2" length="7">bearded</wf>
+    <wf id="w3" sent="1" para="1" offset="10" length="3">man</wf>
+    <wf id="w4" sent="1" para="1" offset="14" length="1">,</wf>
+    <wf id="w5" sent="1" para="1" offset="16" length="3">and</wf>
+    <wf id="w6" sent="1" para="1" offset="20" length="1">a</wf>
+    <wf id="w7" sent="1" para="1" offset="22" length="4">girl</wf>
+    <wf id="w8" sent="1" para="1" offset="27" length="2">in</wf>
+    <wf id="w9" sent="1" para="1" offset="30" length="1">a</wf>
+    <wf id="w10" sent="1" para="1" offset="32" length="3">red</wf>
+    <wf id="w11" sent="1" para="1" offset="36" length="5">dress</wf>
+    <wf id="w12" sent="1" para="1" offset="42" length="3">are</wf>
+    <wf id="w13" sent="1" para="1" offset="46" length="7">getting</wf>
+    <wf id="w14" sent="1" para="1" offset="54" length="7">married</wf>
+    <wf id="w15" sent="1" para="1" offset="61" length="1">.</wf>
+  </text>
+  <terms>
+    <!--A-->
+    <term id="t1" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w1" />
+      </span>
+    </term>
+    <!--bearded-->
+    <term id="t2" type="open" lemma="bearded" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="wn30-ukb" reference="00217075-a" />
+        <externalRef resource="wn30-sst" reference="B-adj.all" />
+      </externalReferences>
+    </term>
+    <!--man-->
+    <term id="t3" type="open" lemma="man" pos="N" morphofeat="NN">
+      <span>
+        <target id="w3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="wn30-ukb" reference="10287213-n" />
+        <externalRef resource="wn30-sst" reference="B-noun.person" />
+        <externalRef resource="BBN" reference="person" />
+        <externalRef resource="SUMO" reference="Man" />
+        <externalRef resource="Yago" reference="Man110287213" />
+      </externalReferences>
+    </term>
+    <!--,-->
+    <term id="t4" type="open" lemma="," pos="O" morphofeat=",">
+      <span>
+        <target id="w4" />
+      </span>
+    </term>
+    <!--and-->
+    <term id="t5" type="open" lemma="and" pos="C" morphofeat="CC">
+      <span>
+        <target id="w5" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t6" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w6" />
+      </span>
+    </term>
+    <!--girl-->
+    <term id="t7" type="open" lemma="girl" pos="N" morphofeat="NN">
+      <span>
+        <target id="w7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="wn30-ukb" reference="10129825-n" />
+        <externalRef resource="wn30-sst" reference="B-noun.person" />
+        <externalRef resource="BBN" reference="person" />
+        <externalRef resource="SUMO" reference="Woman" />
+        <externalRef resource="Yago" reference="Girl110129825" />
+      </externalReferences>
+    </term>
+    <!--in-->
+    <term id="t8" type="open" lemma="in" pos="P" morphofeat="IN">
+      <span>
+        <target id="w8" />
+      </span>
+    </term>
+    <!--a-->
+    <term id="t9" type="open" lemma="a" pos="D" morphofeat="DT">
+      <span>
+        <target id="w9" />
+      </span>
+    </term>
+    <!--red-->
+    <term id="t10" type="open" lemma="red" pos="G" morphofeat="JJ">
+      <span>
+        <target id="w10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="wn30-ukb" reference="00381097-a" />
+        <externalRef resource="wn30-sst" reference="B-adj.all" />
+      </externalReferences>
+    </term>
+    <!--dress-->
+    <term id="t11" type="open" lemma="dress" pos="N" morphofeat="NN">
+      <span>
+        <target id="w11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="wn30-ukb" reference="02728440-n" />
+        <externalRef resource="wn30-sst" reference="B-noun.artifact" />
+        <externalRef resource="SUMO" reference="Clothing" />
+        <externalRef resource="Yago" reference="Apparel102728440" />
+      </externalReferences>
+    </term>
+    <!--are-->
+    <term id="t12" type="open" lemma="be" pos="V" morphofeat="VBP">
+      <span>
+        <target id="w12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="wn30-ukb" reference="02604760-v" />
+        <externalRef resource="wn30-sst" reference="B-verb.stative" />
+      </externalReferences>
+    </term>
+    <!--getting-->
+    <term id="t13" type="open" lemma="get" pos="V" morphofeat="VBG">
+      <span>
+        <target id="w13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="wn30-ukb" reference="00120316-v" />
+        <externalRef resource="wn30-sst" reference="B-verb.change" />
+        <externalRef resource="SUMO" reference="Process" />
+      </externalReferences>
+    </term>
+    <!--married-->
+    <term id="t14" type="open" lemma="marry" pos="V" morphofeat="VBN">
+      <span>
+        <target id="w14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="wn30-ukb" reference="02488834-v" />
+        <externalRef resource="wn30-sst" reference="B-verb.social" />
+        <externalRef resource="SUMO" reference="Wedding" />
+      </externalReferences>
+    </term>
+    <!--.-->
+    <term id="t15" type="open" lemma="." pos="O" morphofeat=".">
+      <span>
+        <target id="w15" />
+      </span>
+    </term>
+  </terms>
+  <deps>
+    <!--NMOD(man-3, A-1)-->
+    <dep from="t3" to="t1" rfunc="NMOD" />
+    <!--NMOD(man-3, bearded-2)-->
+    <dep from="t3" to="t2" rfunc="NMOD" />
+    <!--SBJ(are-12, man-3)-->
+    <dep from="t12" to="t3" rfunc="SBJ" />
+    <!--P(man-3, ,-4)-->
+    <dep from="t3" to="t4" rfunc="P" />
+    <!--COORD(man-3, and-5)-->
+    <dep from="t3" to="t5" rfunc="COORD" />
+    <!--NMOD(girl-7, a-6)-->
+    <dep from="t7" to="t6" rfunc="NMOD" />
+    <!--CONJ(and-5, girl-7)-->
+    <dep from="t5" to="t7" rfunc="CONJ" />
+    <!--NMOD(girl-7, in-8)-->
+    <dep from="t7" to="t8" rfunc="NMOD" />
+    <!--NMOD(dress-11, a-9)-->
+    <dep from="t11" to="t9" rfunc="NMOD" />
+    <!--NMOD(dress-11, red-10)-->
+    <dep from="t11" to="t10" rfunc="NMOD" />
+    <!--PMOD(in-8, dress-11)-->
+    <dep from="t8" to="t11" rfunc="PMOD" />
+    <!--OPRD(are-12, getting-13)-->
+    <dep from="t12" to="t13" rfunc="OPRD" />
+    <!--VC(getting-13, married-14)-->
+    <dep from="t13" to="t14" rfunc="VC" />
+    <!--P(are-12, .-15)-->
+    <dep from="t12" to="t15" rfunc="P" />
+  </deps>
+  <entities>
+    <entity id="e1" unnamed="yes">
+      <references>
+        <!--girl-->
+        <span>
+          <target id="t7" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Girl" confidence="0.9933486" />
+      </externalReferences>
+    </entity>
+    <entity id="e2" unnamed="yes">
+      <references>
+        <!--man-->
+        <span>
+          <target id="t3" />
+        </span>
+      </references>
+      <externalReferences>
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Man" confidence="0.9284339" />
+      </externalReferences>
+    </entity>
+    <entity id="e3" unnamed="yes">
+      <references>
+        <!--dress-->
+        <span>
+          <target id="t11" head="yes" />
+        </span>
+      </references>
+    </entity>
+  </entities>
+  <timeExpressions>
+    <timex3 id="tmx0" type="DATE" />
+  </timeExpressions>
+  <linkedEntities>
+    <linkedEntity id="le1" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/White_dress_of_Marilyn_Monroe" confidence="0.9999999896607505" spotted="true">
+      <!--red dress-->
+      <span>
+        <target id="w10" />
+        <target id="w11" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le2" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Girl" confidence="0.9933485749799751" spotted="true">
+      <!--girl-->
+      <span>
+        <target id="w7" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le3" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Marriage" confidence="0.996697897752642" spotted="true">
+      <!--married-->
+      <span>
+        <target id="w14" />
+      </span>
+    </linkedEntity>
+    <linkedEntity id="le4" resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Man" confidence="0.9284338745899605" spotted="true">
+      <!--man-->
+      <span>
+        <target id="w3" />
+      </span>
+    </linkedEntity>
+  </linkedEntities>
+  <srl>
+    <!--t12 are : A1[t1 A]-->
+    <predicate id="pr1" source="mate">
+      <!--are-->
+      <span>
+        <target id="t12" />
+      </span>
+      <externalReferences>
+        <externalRef resource="PropBank" reference="be.01" source="mate" />
+      </externalReferences>
+      <role id="rl1" semRole="A1">
+        <!--A bearded man , and a girl in a red dress-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" head="yes" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+      </role>
+    </predicate>
+    <!--t2 bearded :-->
+    <predicate id="f_pr3" source="semafor" confidence="9.376787015284343">
+      <!--bearded-->
+      <span>
+        <target id="t2" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Body_description_part" />
+        <externalRef resource="FrameBase" reference="frame-Body_description_part-bearded.a" />
+      </externalReferences>
+    </predicate>
+    <!--t3 man : [t1 A]-->
+    <predicate id="f_pr4" source="semafor" confidence="35.15329746641877">
+      <!--man-->
+      <span>
+        <target id="t3" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Man" confidence="0.9284339" />
+        <externalRef resource="FrameBase" reference="frame-People-man.n" />
+      </externalReferences>
+      <role id="rl4" semRole="">
+        <!--A bearded man , and a girl in a red dress-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People@Person" />
+          <externalRef resource="FrameBase" reference="fe-People-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t7 girl : [t6 a]-->
+    <predicate id="f_pr5" source="semafor" confidence="33.70687121814489">
+      <!--girl-->
+      <span>
+        <target id="t7" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="People" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Girl" confidence="0.9933486" />
+        <externalRef resource="FrameBase" reference="frame-People-girl.n" />
+      </externalReferences>
+      <role id="rl5" semRole="">
+        <!--a girl in a red dress-->
+        <span>
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="People@Person" />
+          <externalRef resource="FrameBase" reference="fe-People-Person" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t10 red : [t10 red] [t9 a]-->
+    <predicate id="f_pr6" source="semafor" confidence="61.01381165670681">
+      <!--red-->
+      <span>
+        <target id="t10" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Color" />
+        <externalRef resource="FrameBase" reference="frame-Color-red.a" />
+      </externalReferences>
+      <role id="rl6" semRole="">
+        <!--red-->
+        <span>
+          <target id="t10" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Color" />
+          <externalRef resource="FrameBase" reference="fe-Color-Color" />
+        </externalReferences>
+      </role>
+      <role id="rl7" semRole="">
+        <!--a red dress-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Color@Entity" />
+          <externalRef resource="FrameBase" reference="fe-Color-Entity" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t11 dress : [t9 a]-->
+    <predicate id="f_pr7" source="semafor" confidence="21.00913253681415">
+      <!--dress-->
+      <span>
+        <target id="t11" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Food" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/White_dress_of_Marilyn_Monroe" confidence="1.0" />
+      </externalReferences>
+      <role id="rl8" semRole="">
+        <!--a red dress-->
+        <span>
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Food@Food" />
+          <externalRef resource="FrameBase" reference="fe-Food-Food" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t13 getting : A1[t1 A] A2[t14 married]-->
+    <predicate id="f_pr8" source="semafor" confidence="70.67376282728385">
+      <!--getting-->
+      <span>
+        <target id="t13" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Getting" />
+        <externalRef resource="PropBank" reference="get.03" source="mate" />
+        <externalRef resource="VerbNet" reference="convert-26.6.2" />
+        <externalRef resource="ESO" reference="Getting" />
+        <externalRef resource="EventType" reference="grammatical" />
+        <externalRef resource="WordNet" reference="ili-30-00149583-v" />
+        <externalRef resource="FrameBase" reference="frame-Getting-get.v" />
+      </externalReferences>
+      <role id="rl9" semRole="A1">
+        <!--A bearded man , and a girl in a red dress-->
+        <span>
+          <target id="t1" />
+          <target id="t2" />
+          <target id="t3" />
+          <target id="t4" />
+          <target id="t5" />
+          <target id="t6" />
+          <target id="t7" />
+          <target id="t8" />
+          <target id="t9" />
+          <target id="t10" />
+          <target id="t11" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Getting@Recipient" />
+          <externalRef resource="VerbNet" reference="convert-26.6.2@Patient" />
+          <externalRef resource="PropBank" reference="get.03@1" />
+          <externalRef resource="ESO" reference="Getting@possession-owner_1" />
+          <externalRef resource="FrameBase" reference="fe-Getting-Recipient" />
+        </externalReferences>
+      </role>
+      <role id="rl10" semRole="A2">
+        <!--married-->
+        <span>
+          <target id="t14" />
+        </span>
+        <externalReferences>
+          <externalRef resource="FrameNet" reference="Getting@Theme" />
+          <externalRef resource="VerbNet" reference="convert-26.6.2@Goal" />
+          <externalRef resource="PropBank" reference="get.03@2" />
+          <externalRef resource="ESO" reference="Getting@possession-owner_2" />
+          <externalRef resource="FrameBase" reference="fe-Getting-Theme" />
+        </externalReferences>
+      </role>
+    </predicate>
+    <!--t14 married :-->
+    <predicate id="f_pr9" source="semafor" confidence="47.80992572617972">
+      <!--married-->
+      <span>
+        <target id="t14" />
+      </span>
+      <externalReferences>
+        <externalRef resource="FrameNet" reference="Personal_relationship" />
+        <externalRef resource="dbpedia-annotate" reference="http://dbpedia.org/resource/Marriage" confidence="0.9966979" />
+      </externalReferences>
+    </predicate>
+  </srl>
+  <constituencyStrings>
+    <tree sentence="1">(ROOT (S (NP (NP (DT A) (JJ bearded) (NN man)) (, ,) (CC and) (NP (NP (DT a) (NN girl)) (PP (IN in) (NP (DT a) (JJ red) (NN dress))))) (VP (VBP are) (VP (VBG getting) (S (VP (VBN married))))) (. .)))</tree>
+  </constituencyStrings>
+  <constituency>
+    <tree sentence="1">
+      <!--Non-terminals-->
+      <nt id="nter1" label="ROOT" />
+      <nt id="nter2" label="S" />
+      <nt id="nter3" label="NP" />
+      <nt id="nter4" label="NP" />
+      <nt id="nter5" label="DT" />
+      <nt id="nter6" label="JJ" />
+      <nt id="nter7" label="NN" />
+      <nt id="nter8" label="," />
+      <nt id="nter9" label="CC" />
+      <nt id="nter10" label="NP" />
+      <nt id="nter11" label="NP" />
+      <nt id="nter12" label="DT" />
+      <nt id="nter13" label="NN" />
+      <nt id="nter14" label="PP" />
+      <nt id="nter15" label="IN" />
+      <nt id="nter16" label="NP" />
+      <nt id="nter17" label="DT" />
+      <nt id="nter18" label="JJ" />
+      <nt id="nter19" label="NN" />
+      <nt id="nter20" label="VP" />
+      <nt id="nter21" label="VBP" />
+      <nt id="nter22" label="VP" />
+      <nt id="nter23" label="VBG" />
+      <nt id="nter24" label="S" />
+      <nt id="nter25" label="VP" />
+      <nt id="nter26" label="VBN" />
+      <nt id="nter27" label="." />
+      <!--Terminals-->
+      <!--A-->
+      <t id="ter1">
+        <span>
+          <target id="t1" />
+        </span>
+      </t>
+      <!--bearded-->
+      <t id="ter2">
+        <span>
+          <target id="t2" />
+        </span>
+      </t>
+      <!--man-->
+      <t id="ter3">
+        <span>
+          <target id="t3" />
+        </span>
+      </t>
+      <!--,-->
+      <t id="ter4">
+        <span>
+          <target id="t4" />
+        </span>
+      </t>
+      <!--and-->
+      <t id="ter5">
+        <span>
+          <target id="t5" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter6">
+        <span>
+          <target id="t6" />
+        </span>
+      </t>
+      <!--girl-->
+      <t id="ter7">
+        <span>
+          <target id="t7" />
+        </span>
+      </t>
+      <!--in-->
+      <t id="ter8">
+        <span>
+          <target id="t8" />
+        </span>
+      </t>
+      <!--a-->
+      <t id="ter9">
+        <span>
+          <target id="t9" />
+        </span>
+      </t>
+      <!--red-->
+      <t id="ter10">
+        <span>
+          <target id="t10" />
+        </span>
+      </t>
+      <!--dress-->
+      <t id="ter11">
+        <span>
+          <target id="t11" />
+        </span>
+      </t>
+      <!--are-->
+      <t id="ter12">
+        <span>
+          <target id="t12" />
+        </span>
+      </t>
+      <!--getting-->
+      <t id="ter13">
+        <span>
+          <target id="t13" />
+        </span>
+      </t>
+      <!--married-->
+      <t id="ter14">
+        <span>
+          <target id="t14" />
+        </span>
+      </t>
+      <!--.-->
+      <t id="ter15">
+        <span>
+          <target id="t15" />
+        </span>
+      </t>
+      <!--Tree edges-->
+      <edge id="tre2" from="nter2" to="nter1" head="yes" />
+      <edge id="tre3" from="nter3" to="nter2" />
+      <edge id="tre4" from="nter4" to="nter3" head="yes" />
+      <edge id="tre5" from="nter5" to="nter4" />
+      <edge id="tre6" from="ter1" to="nter5" />
+      <edge id="tre7" from="nter6" to="nter4" />
+      <edge id="tre8" from="ter2" to="nter6" />
+      <edge id="tre9" from="nter7" to="nter4" head="yes" />
+      <edge id="tre10" from="ter3" to="nter7" />
+      <edge id="tre11" from="nter8" to="nter3" />
+      <edge id="tre12" from="ter4" to="nter8" />
+      <edge id="tre13" from="nter9" to="nter3" />
+      <edge id="tre14" from="ter5" to="nter9" />
+      <edge id="tre15" from="nter10" to="nter3" />
+      <edge id="tre16" from="nter11" to="nter10" head="yes" />
+      <edge id="tre17" from="nter12" to="nter11" />
+      <edge id="tre18" from="ter6" to="nter12" />
+      <edge id="tre19" from="nter13" to="nter11" head="yes" />
+      <edge id="tre20" from="ter7" to="nter13" />
+      <edge id="tre21" from="nter14" to="nter10" />
+      <edge id="tre22" from="nter15" to="nter14" head="yes" />
+      <edge id="tre23" from="ter8" to="nter15" />
+      <edge id="tre24" from="nter16" to="nter14" />
+      <edge id="tre25" from="nter17" to="nter16" />
+      <edge id="tre26" from="ter9" to="nter17" />
+      <edge id="tre27" from="nter18" to="nter16" />
+      <edge id="tre28" from="ter10" to="nter18" />
+      <edge id="tre29" from="nter19" to="nter16" head="yes" />
+      <edge id="tre30" from="ter11" to="nter19" />
+      <edge id="tre31" from="nter20" to="nter2" head="yes" />
+      <edge id="tre32" from="nter21" to="nter20" head="yes" />
+      <edge id="tre33" from="ter12" to="nter21" />
+      <edge id="tre34" from="nter22" to="nter20" />
+      <edge id="tre35" from="nter23" to="nter22" head="yes" />
+      <edge id="tre36" from="ter13" to="nter23" />
+      <edge id="tre37" from="nter24" to="nter22" />
+      <edge id="tre38" from="nter25" to="nter24" head="yes" />
+      <edge id="tre39" from="nter26" to="nter25" head="yes" />
+      <edge id="tre40" from="ter14" to="nter26" />
+      <edge id="tre41" from="nter27" to="nter2" />
+      <edge id="tre42" from="ter15" to="nter27" />
+    </tree>
+  </constituency>
+</NAF>

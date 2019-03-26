@@ -1,0 +1,227 @@
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Text> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://dkm.fbk.eu/ontologies/knowledgestore#textHash> "JHTkvYvR6qcDaKnNAqWp3N" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man_2> <http://groundedannotationframework.org/gaf#denotedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> <http://dkm.fbk.eu/ontologies/knowledgestore#mentionOf> <http://vksflickr30k.fbk.edu/resource/65567C2/> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,23> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex> "23"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://purl.org/dc/terms/language> <http://lexvo.org/id/iso639-3/eng> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;10,15> <http://dkm.fbk.eu/ontologies/knowledgestore#componentSubString> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/.naf> <http://purl.org/dc/terms/creator> <http://dkm.fbk.eu/ontologies/knowledgestore#NAF%20filter.null> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;16,23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#ParticipationMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex> "16"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/.naf> <http://purl.org/dc/terms/creator> <http://dkm.fbk.eu/ontologies/knowledgestore#Stanford%20CoreNLP.null> .
+<http://dkm.fbk.eu/ontologies/knowledgestore#Stanford%20CoreNLP.null> <http://purl.org/dc/terms/title> "Stanford CoreNLP" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Mention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://purl.org/dc/terms/title> "65567C2" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> <http://dkm.fbk.eu/ontologies/knowledgestore#sst> <http://www.newsreader-project.eu/sst/noun.person> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#EntityMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex> "23"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,46> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex> "30"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;16,23> <http://dkm.fbk.eu/ontologies/knowledgestore#componentSubString> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://dkm.fbk.eu/ontologies/knowledgestore#hasMention> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23;38,46> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23;38,46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#CompoundString> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf> "function" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Mention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/.naf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Resource> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#woman> <http://groundedannotationframework.org/gaf#denotedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;10,15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#CompoundString> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,23> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex> "10"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://dkm.fbk.eu/ontologies/knowledgestore#hasMention> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function> <http://groundedannotationframework.org/gaf#denotedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#EntityMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#ParticipationMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#PredicateMention> .
+<http://dkm.fbk.eu/ontologies/knowledgestore#NAF%20filter.null> <http://purl.org/dc/terms/title> "NAF filter" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,37> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf> "wedding" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/.naf> <http://dkm.fbk.eu/ontologies/knowledgestore#annotationOf> <http://vksflickr30k.fbk.edu/resource/65567C2/> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23;38,46> <http://dkm.fbk.eu/ontologies/knowledgestore#mentionOf> <http://vksflickr30k.fbk.edu/resource/65567C2/> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23> <http://dkm.fbk.eu/ontologies/knowledgestore#sst> <http://www.newsreader-project.eu/sst/verb.body> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/.naf> <http://purl.org/dc/terms/identifier> "/65567C2.naf.gz" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,46> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf> "wedding function" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://dkm.fbk.eu/ontologies/knowledgestore#hasMention> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;10,15> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> <http://dkm.fbk.eu/ontologies/knowledgestore#sst> <http://www.newsreader-project.eu/sst/noun.act> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#ParticipationMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex> "10"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;16,23> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex> "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23> <http://dkm.fbk.eu/ontologies/knowledgestore#lemma> "dress" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#PredicateMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,23> <http://dkm.fbk.eu/ontologies/knowledgestore#mentionOf> <http://vksflickr30k.fbk.edu/resource/65567C2/> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> <http://dkm.fbk.eu/ontologies/knowledgestore#lemma> "function" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;16,23> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex> "23"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,46> <http://dkm.fbk.eu/ontologies/knowledgestore#mentionOf> <http://vksflickr30k.fbk.edu/resource/65567C2/> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex> "5"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf> "man" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23;38,46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Mention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Mention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;10,15> <http://dkm.fbk.eu/ontologies/knowledgestore#mentionOf> <http://vksflickr30k.fbk.edu/resource/65567C2/> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#PredicateMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;10,15> <http://dkm.fbk.eu/ontologies/knowledgestore#componentSubString> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,37> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex> "30"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex> "38"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,37> <http://dkm.fbk.eu/ontologies/knowledgestore#lemma> "wedding" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;10,15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Mention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> <http://dkm.fbk.eu/ontologies/knowledgestore#mentionOf> <http://vksflickr30k.fbk.edu/resource/65567C2/> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> <http://dkm.fbk.eu/ontologies/knowledgestore#synset> <http://www.newsreader-project.eu/syn/10287213-n> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> <http://dkm.fbk.eu/ontologies/knowledgestore#synset> <http://www.newsreader-project.eu/syn/10787470-n> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;16,23> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf> "man [...] dressed" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://dkm.fbk.eu/ontologies/knowledgestore#hasMention> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://purl.org/dc/terms/creator> "Shahi" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Mention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex> "46"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://dkm.fbk.eu/ontologies/knowledgestore#hasMention> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23;38,46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#ParticipationMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#ParticipationMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;10,15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#ParticipationMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function_2> <http://groundedannotationframework.org/gaf#denotedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;10,15> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf> "man [...] woman" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex> "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23> <http://dkm.fbk.eu/ontologies/knowledgestore#mentionOf> <http://vksflickr30k.fbk.edu/resource/65567C2/> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;16,23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#CompoundString> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> <http://dkm.fbk.eu/ontologies/knowledgestore#sst> <http://www.newsreader-project.eu/sst/noun.person> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/.naf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#NAF> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Mention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> <http://dkm.fbk.eu/ontologies/knowledgestore#synset> <http://www.newsreader-project.eu/syn/00720565-n> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Mention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#PredicateMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#ParticipationMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23;38,46> <http://dkm.fbk.eu/ontologies/knowledgestore#componentSubString> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,37> <http://dkm.fbk.eu/ontologies/knowledgestore#mentionOf> <http://vksflickr30k.fbk.edu/resource/65567C2/> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#EntityMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;10,15> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex> "15"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,37> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex> "37"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf> "woman" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://dkm.fbk.eu/ontologies/knowledgestore#hasMention> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;16,23> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Mention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> <http://dkm.fbk.eu/ontologies/knowledgestore#lemma> "man" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex> "15"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/.naf> <http://dkm.fbk.eu/ontologies/knowledgestore#version> "v3" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://dkm.fbk.eu/ontologies/knowledgestore#hasMention> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,37> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23> <http://dkm.fbk.eu/ontologies/knowledgestore#synset> <http://www.newsreader-project.eu/syn/00046534-v> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://dkm.fbk.eu/ontologies/knowledgestore#hasMention> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,46> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#ParticipationMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://dkm.fbk.eu/ontologies/knowledgestore#nafFileName> "65567C2" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man> <http://groundedannotationframework.org/gaf#denotedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23;38,46> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex> "16"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://dkm.fbk.eu/ontologies/knowledgestore#annotatedWith> <http://vksflickr30k.fbk.edu/resource/65567C2/.naf> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf> "dressed" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,37> <http://dkm.fbk.eu/ontologies/knowledgestore#sst> <http://www.newsreader-project.eu/sst/noun.event> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;16,23> <http://dkm.fbk.eu/ontologies/knowledgestore#componentSubString> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;16,23> <http://dkm.fbk.eu/ontologies/knowledgestore#mentionOf> <http://vksflickr30k.fbk.edu/resource/65567C2/> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,23> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf> "woman dressed" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#PredicateMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#EntityMention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/.naf> <http://purl.org/dc/terms/created> "2018-12-04T14:28:17.148+0100" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23;38,46> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex> "46"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,46> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex> "46"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;16,23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Mention> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23;38,46> <http://dkm.fbk.eu/ontologies/knowledgestore#componentSubString> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://groundedannotationframework.org/gaf#denotedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,37> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://dkm.fbk.eu/ontologies/knowledgestore#hasMention> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> <http://dkm.fbk.eu/ontologies/knowledgestore#mentionOf> <http://vksflickr30k.fbk.edu/resource/65567C2/> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#woman_2> <http://groundedannotationframework.org/gaf#denotedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> <http://dkm.fbk.eu/ontologies/knowledgestore#lemma> "woman" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/.naf> <http://dkm.fbk.eu/ontologies/knowledgestore#layer> <http://dkm.fbk.eu/ontologies/knowledgestore#layer_naf-filter> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://groundedannotationframework.org/gaf#denotedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;10,15> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex> "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/.naf> <http://dkm.fbk.eu/ontologies/knowledgestore#layer> <http://dkm.fbk.eu/ontologies/knowledgestore#layer_text> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,37> <http://dkm.fbk.eu/ontologies/knowledgestore#synset> <http://www.newsreader-project.eu/syn/07452074-n> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Resource> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23;38,46> <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#anchorOf> "dressed [...] function" .
+<http://vksflickr30k.fbk.edu/resource/65567C2/> <http://dkm.fbk.eu/ontologies/knowledgestore#hasMention> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,23> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function_2> <http://www.newsreader-project.eu/ontologies/nombank/function.02_1> <http://vksflickr30k.fbk.edu/resource/65567C2/#function> <fact:NXpkdkcbXphDdO2_jdHc5X> .
+<fact:NXpkdkcbXphDdO2_jdHc5X> <http://dkm.fbk.eu/ontologies/knowledgestore#expressedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People-man.n> <fact:A7T5ySmZ4oSK2QzIK4mfOF> .
+<fact:A7T5ySmZ4oSK2QzIK4mfOF> <http://dkm.fbk.eu/ontologies/knowledgestore#expressedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.w3.org/2000/01/rdf-schema#label> "dressed" <fact:IU7Oth0m3ebG_2pu0Gp95H> .
+<fact:IU7Oth0m3ebG_2pu0Gp95H> <http://dkm.fbk.eu/ontologies/knowledgestore#expressedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man> <http://www.w3.org/2000/01/rdf-schema#label> "man" <fact:A7T5ySmZ4oSK2QzIK4mfOF> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semanticweb.cs.vu.nl/2009/11/sem/Event> <fact:IU7Oth0m3ebG_2pu0Gp95H> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Entity> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<fact:HylymVjRfZEIcCIJ5VWYTN> <http://dkm.fbk.eu/ontologies/knowledgestore#expressedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,37> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function_2> <http://framebase.org/ns/fe-contingency-determinant> <http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <fact:LcBE3wHzvkfMhXF3JEFB4U> .
+<fact:LcBE3wHzvkfMhXF3JEFB4U> <http://dkm.fbk.eu/ontologies/knowledgestore#expressedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,46> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Wedding> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://vksflickr30k.fbk.edu/resource/65567C2/#man> <fact:NZL4ZmF1TaEKyrAS4AFYNS> .
+<fact:NZL4ZmF1TaEKyrAS4AFYNS> <http://dkm.fbk.eu/ontologies/knowledgestore#expressedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;16,23> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://vksflickr30k.fbk.edu/resource/65567C2/#woman> <fact:FxH1E0o5408BxbbxqkeTnr> .
+<fact:FxH1E0o5408BxbbxqkeTnr> <http://dkm.fbk.eu/ontologies/knowledgestore#expressedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,23> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.newsreader-project.eu/ontologies/framenet/wearer> <http://vksflickr30k.fbk.edu/resource/65567C2/#man> <fact:NZL4ZmF1TaEKyrAS4AFYNS> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#woman> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Woman> <fact:IsXSHnmuxrzASvsgZ2C3yH> .
+<fact:IsXSHnmuxrzASvsgZ2C3yH> <http://dkm.fbk.eu/ontologies/knowledgestore#expressedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Predicate> <fact:IU7Oth0m3ebG_2pu0Gp95H> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Entity> <fact:IU7Oth0m3ebG_2pu0Gp95H> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Forming_relationships-wed.v> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Entity> <fact:NXpkdkcbXphDdO2_jdHc5X> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function_2> <http://www.newsreader-project.eu/ontologies/nombank/function.02_1> <http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <fact:LcBE3wHzvkfMhXF3JEFB4U> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#IntentionalProcess> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://framebase.org/ns/fe-wearing-wearer> <http://vksflickr30k.fbk.edu/resource/65567C2/#man> <fact:NZL4ZmF1TaEKyrAS4AFYNS> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semanticweb.cs.vu.nl/2009/11/sem/Event> <fact:A7T5ySmZ4oSK2QzIK4mfOF> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Wedding107452074> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Process> <fact:NXpkdkcbXphDdO2_jdHc5X> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#SocialInteraction> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Process> <fact:IU7Oth0m3ebG_2pu0Gp95H> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Entity> <fact:A7T5ySmZ4oSK2QzIK4mfOF> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function_2> <http://dkm.fbk.eu/ontologies/knowledgestore#mod> <http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <fact:LcBE3wHzvkfMhXF3JEFB4U> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Entity> <fact:IU7Oth0m3ebG_2pu0Gp95H> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Man> <fact:A7T5ySmZ4oSK2QzIK4mfOF> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#woman_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Predicate> <fact:IsXSHnmuxrzASvsgZ2C3yH> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Transfer> <fact:IU7Oth0m3ebG_2pu0Gp95H> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <fact:LcBE3wHzvkfMhXF3JEFB4U> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man_2> <http://www.newsreader-project.eu/ontologies/framenet/person> <http://vksflickr30k.fbk.edu/resource/65567C2/#woman> <fact:DovPXA-Z6fXOpn0Xj2_l2Z> .
+<fact:DovPXA-Z6fXOpn0Xj2_l2Z> <http://dkm.fbk.eu/ontologies/knowledgestore#expressedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5;10,15> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#woman_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semanticweb.cs.vu.nl/2009/11/sem/Event> <fact:IsXSHnmuxrzASvsgZ2C3yH> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man_2> <http://framebase.org/ns/fe-people-person> <http://vksflickr30k.fbk.edu/resource/65567C2/#man> <fact:A7T5ySmZ4oSK2QzIK4mfOF> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Wedding> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Entity> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.newsreader-project.eu/ontologies/nombank/function.02> <fact:NXpkdkcbXphDdO2_jdHc5X> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function_2> <http://www.newsreader-project.eu/ontologies/framenet/determinant> <http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <fact:LcBE3wHzvkfMhXF3JEFB4U> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.newsreader-project.eu/ontologies/framenet/Contingency> <fact:NXpkdkcbXphDdO2_jdHc5X> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/2000/01/rdf-schema#label> "wedding" <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Predicate> <fact:A7T5ySmZ4oSK2QzIK4mfOF> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Entity> <fact:A7T5ySmZ4oSK2QzIK4mfOF> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Physical> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#woman_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-People-woman.n> <fact:IsXSHnmuxrzASvsgZ2C3yH> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.newsreader-project.eu/ontologies/propbank/dress.01_1> <http://vksflickr30k.fbk.edu/resource/65567C2/#man> <fact:NZL4ZmF1TaEKyrAS4AFYNS> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Motion> <fact:IU7Oth0m3ebG_2pu0Gp95H> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Dressing> <fact:IU7Oth0m3ebG_2pu0Gp95H> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#woman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Woman110787470> <fact:IsXSHnmuxrzASvsgZ2C3yH> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Function100720565> <fact:NXpkdkcbXphDdO2_jdHc5X> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.newsreader-project.eu/ontologies/verbnet/dress-41.1.1> <fact:IU7Oth0m3ebG_2pu0Gp95H> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.newsreader-project.eu/ontologies/propbank/dress.01> <fact:IU7Oth0m3ebG_2pu0Gp95H> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Predicate> <fact:NXpkdkcbXphDdO2_jdHc5X> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#woman_2> <http://framebase.org/ns/fe-people-person> <http://vksflickr30k.fbk.edu/resource/65567C2/#woman> <fact:IsXSHnmuxrzASvsgZ2C3yH> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semanticweb.cs.vu.nl/2009/11/sem/Event> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Entity> <fact:NXpkdkcbXphDdO2_jdHc5X> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.newsreader-project.eu/ontologies/framenet/wearer> <http://vksflickr30k.fbk.edu/resource/65567C2/#woman> <fact:FxH1E0o5408BxbbxqkeTnr> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#LinguisticCommunication> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#ContentBearingPhysical> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Predicate> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.newsreader-project.eu/ontologies/framenet/Forming_relationships> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.newsreader-project.eu/ontologies/verbnet/patient> <http://vksflickr30k.fbk.edu/resource/65567C2/#woman> <fact:FxH1E0o5408BxbbxqkeTnr> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Process> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://semanticweb.cs.vu.nl/2009/11/sem/Event> <fact:NXpkdkcbXphDdO2_jdHc5X> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Translocation> <fact:IU7Oth0m3ebG_2pu0Gp95H> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man_2> <http://www.newsreader-project.eu/ontologies/framenet/person> <http://vksflickr30k.fbk.edu/resource/65567C2/#man> <fact:A7T5ySmZ4oSK2QzIK4mfOF> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dbpedia.org/resource/Subroutine> <fact:NXpkdkcbXphDdO2_jdHc5X> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://framebase.org/ns/frame-Contingency-function.n> <fact:NXpkdkcbXphDdO2_jdHc5X> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.newsreader-project.eu/ontologies/framenet/People> <fact:A7T5ySmZ4oSK2QzIK4mfOF> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function_2> <http://semanticweb.cs.vu.nl/2009/11/sem/hasActor> <http://vksflickr30k.fbk.edu/resource/65567C2/#function> <fact:NXpkdkcbXphDdO2_jdHc5X> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#woman_2> <http://www.newsreader-project.eu/ontologies/framenet/person> <http://vksflickr30k.fbk.edu/resource/65567C2/#woman> <fact:IsXSHnmuxrzASvsgZ2C3yH> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.newsreader-project.eu/ontologies/propbank/dress.01_1> <http://vksflickr30k.fbk.edu/resource/65567C2/#woman> <fact:FxH1E0o5408BxbbxqkeTnr> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#woman_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Entity> <fact:IsXSHnmuxrzASvsgZ2C3yH> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#woman_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.newsreader-project.eu/ontologies/framenet/People> <fact:IsXSHnmuxrzASvsgZ2C3yH> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://framebase.org/ns/fe-wearing-wearer> <http://vksflickr30k.fbk.edu/resource/65567C2/#woman> <fact:FxH1E0o5408BxbbxqkeTnr> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.newsreader-project.eu/ontologies/propbank/pnc> <http://vksflickr30k.fbk.edu/resource/65567C2/#function> <fact:K34N_getQBDPKeYtPLs1ug> .
+<fact:K34N_getQBDPKeYtPLs1ug> <http://dkm.fbk.eu/ontologies/knowledgestore#expressedBy> <http://vksflickr30k.fbk.edu/resource/65567C2/#char=16,23;38,46> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#ContentBearingProcess> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man_2> <http://framebase.org/ns/fe-people-person> <http://vksflickr30k.fbk.edu/resource/65567C2/#woman> <fact:DovPXA-Z6fXOpn0Xj2_l2Z> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#woman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dkm.fbk.eu/ontologies/knowledgestore#Entity> <fact:IsXSHnmuxrzASvsgZ2C3yH> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Ceremony> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Man110287213> <fact:A7T5ySmZ4oSK2QzIK4mfOF> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Communication> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function> <http://www.w3.org/2000/01/rdf-schema#label> "function" <fact:NXpkdkcbXphDdO2_jdHc5X> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Physical> <fact:IU7Oth0m3ebG_2pu0Gp95H> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.newsreader-project.eu/ontologies/verbnet/patient> <http://vksflickr30k.fbk.edu/resource/65567C2/#man> <fact:NZL4ZmF1TaEKyrAS4AFYNS> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#woman> <http://www.w3.org/2000/01/rdf-schema#label> "woman" <fact:IsXSHnmuxrzASvsgZ2C3yH> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Declaring> <fact:HylymVjRfZEIcCIJ5VWYTN> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ontologyportal.org/SUMO.owl#Putting> <fact:IU7Oth0m3ebG_2pu0Gp95H> .
+<http://vksflickr30k.fbk.edu/resource/65567C2/#dress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.newsreader-project.eu/ontologies/framenet/Wearing> <fact:IU7Oth0m3ebG_2pu0Gp95H> .

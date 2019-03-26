@@ -1,0 +1,456 @@
+@prefix dc: <http://purl.org/dc/elements/1.1#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix gaf: <http://groundedannotationframework.org/gaf#> .
+@prefix ks: <http://dkm.fbk.eu/ontologies/knowledgestore#> .
+@prefix nfo: <http://oscaf.sourceforge.net/> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <https://www.w3.org/TR/prov-o/#prov-o-at-a-glance/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vks: <http://vksflickr30k.fbk.edu/resource/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+
+vks: a <http://purl.org/dc/dcmitype/Dataset> ;
+    dct:created "2018-11-27T03:55:24.418+0200" ;
+    dct:creator "Shahi Dost" ;
+    dct:language <http://lexvo.org/id/iso639-3/eng> ;
+    dct:title "Visual Knowledge Stored Flickr30k" .
+
+<http://vksflickr30k.fbk.edu/resource/#65567> a <http://purl.org/dc/dcmitype/Collection> .
+
+<http://vksflickr30k.fbk.edu/resource/65567#255542> a ks:Entity,
+        <http://vksflickr30k.fbk.edu/types/people> ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C0/#char=0,13>,
+        <http://vksflickr30k.fbk.edu/resource/65567C2/#char=0,5>,
+        <http://vksflickr30k.fbk.edu/resource/65567I/#xywh=24,63,208,500> ;
+    owl:sameAs <http://vksflickr30k.fbk.edu/resource/65567C0/#man>,
+        <http://vksflickr30k.fbk.edu/resource/65567C2/#man> .
+
+<http://vksflickr30k.fbk.edu/resource/65567#255543> a ks:Entity,
+        <http://vksflickr30k.fbk.edu/types/people> ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C0/#char=20,26>,
+        <http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15>,
+        <http://vksflickr30k.fbk.edu/resource/65567C3/#char=0,7>,
+        <http://vksflickr30k.fbk.edu/resource/65567I/#xywh=162,96,333,497> ;
+    owl:sameAs <http://vksflickr30k.fbk.edu/resource/65567C0/#girl>,
+        <http://vksflickr30k.fbk.edu/resource/65567C2/#woman>,
+        <http://vksflickr30k.fbk.edu/resource/65567C3/#woman> .
+
+<http://vksflickr30k.fbk.edu/resource/65567#255544> a ks:Entity,
+        <http://vksflickr30k.fbk.edu/types/people> ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C1/#char=0,19>,
+        <http://vksflickr30k.fbk.edu/resource/65567I/#xywh=1,62,330,499> ;
+    owl:partOf <http://vksflickr30k.fbk.edu/resource/65567C1/#people> ;
+    owl:sameAs <http://vksflickr30k.fbk.edu/resource/65567C1/#group> .
+
+<http://vksflickr30k.fbk.edu/resource/65567#255545> a ks:Entity,
+        <http://vksflickr30k.fbk.edu/types/bodyparts> ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C3/#char=14,26>,
+        <http://vksflickr30k.fbk.edu/resource/65567I/#xywh=133,167,210,283> ;
+    owl:partOf <http://vksflickr30k.fbk.edu/resource/65567C3/#man> ;
+    owl:sameAs <http://vksflickr30k.fbk.edu/resource/65567C3/#arm> .
+
+<http://vksflickr30k.fbk.edu/resource/65567#255546> a ks:Entity,
+        <http://vksflickr30k.fbk.edu/types/other> ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C1/#char=39,48>,
+        <http://vksflickr30k.fbk.edu/resource/65567C2/#char=28,46> ;
+    owl:partOf <http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> ;
+    owl:sameAs <http://vksflickr30k.fbk.edu/resource/65567C1/#wedding>,
+        <http://vksflickr30k.fbk.edu/resource/65567C2/#function> .
+
+<http://vksflickr30k.fbk.edu/resource/65567#255547> a ks:Entity,
+        <http://vksflickr30k.fbk.edu/types/other> ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C4/#char=0,15>,
+        <http://vksflickr30k.fbk.edu/resource/65567I/#xywh=162,96,333,497>,
+        <http://vksflickr30k.fbk.edu/resource/65567I/#xywh=24,63,208,500> ;
+    owl:partOf <http://vksflickr30k.fbk.edu/resource/65567C4/#wedding> ;
+    owl:sameAs <http://vksflickr30k.fbk.edu/resource/65567C4/#party> .
+
+<http://vksflickr30k.fbk.edu/resource/65567#255548> a ks:Entity,
+        <http://vksflickr30k.fbk.edu/types/scene> ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C4/#char=29,39>,
+        <http://vksflickr30k.fbk.edu/resource/65567I/#xywh=1,1,375,499> ;
+    owl:sameAs <http://vksflickr30k.fbk.edu/resource/65567C4/#building> .
+
+<http://vksflickr30k.fbk.edu/resource/65567#255549> a ks:Entity,
+        <http://vksflickr30k.fbk.edu/types/scene> ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C3/#char=30,44> ;
+    owl:sameAs <http://vksflickr30k.fbk.edu/resource/65567C3/#event> .
+
+<http://vksflickr30k.fbk.edu/resource/65567#255550> a ks:Entity,
+        <http://vksflickr30k.fbk.edu/types/clothing> ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C0/#char=30,41>,
+        <http://vksflickr30k.fbk.edu/resource/65567I/#xywh=172,168,311,500> ;
+    owl:sameAs <http://vksflickr30k.fbk.edu/resource/65567C0/#dress> .
+
+<http://vksflickr30k.fbk.edu/resource/65567.jpg> a ks:Representation ;
+    dc:format "image/jpeg" .
+
+<http://vksflickr30k.fbk.edu/resource/65567I/> a ks:Resource,
+        <http://purl.org/dc/dcmitype/Image> ;
+    ks:hasVisualMention <http://vksflickr30k.fbk.edu/resource/65567I/#xywh=1,1,375,499>,
+        <http://vksflickr30k.fbk.edu/resource/65567I/#xywh=1,62,330,499>,
+        <http://vksflickr30k.fbk.edu/resource/65567I/#xywh=133,167,210,283>,
+        <http://vksflickr30k.fbk.edu/resource/65567I/#xywh=162,96,333,497>,
+        <http://vksflickr30k.fbk.edu/resource/65567I/#xywh=172,168,311,500>,
+        <http://vksflickr30k.fbk.edu/resource/65567I/#xywh=24,63,208,500> ;
+    ks:storedAs <http://vksflickr30k.fbk.edu/resource/65567.jpg/> ;
+    nfo:channels 3 ;
+    nfo:horizontalResolution 500 ;
+    nfo:verticalResolution 375 ;
+    dct:identifier 65567 ;
+    dct:isPartOf <http://vksflickr30k.fbk.edu/resource/65567> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C0.txt> a ks:Representation ;
+    dc:format "text/plain" .
+
+<http://vksflickr30k.fbk.edu/resource/65567C0/#char=10,13> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C0/> ;
+    nif:anchorOf "man" ;
+    nif:beginIndex 10 ;
+    nif:endIndex 13 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C0/#char=22,26> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C0/> ;
+    nif:anchorOf "girl" ;
+    nif:beginIndex 22 ;
+    nif:endIndex 26 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C0/#char=36,41> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C0/> ;
+    nif:anchorOf "dress" ;
+    nif:beginIndex 36 ;
+    nif:endIndex 41 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C0/#dress> a yago:Apparel102728440 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C0/#char=36,41> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C0/#girl> a yago:Girl110129825 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C0/#char=22,26> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C0/#man> a yago:Man110287213 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C0/#char=10,13> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C1.txt> a ks:Representation ;
+    dc:format "text/plain" .
+
+<http://vksflickr30k.fbk.edu/resource/65567C1/#char=13,19> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C1/> ;
+    nif:anchorOf "people" ;
+    nif:beginIndex 13 ;
+    nif:endIndex 19 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C1/#char=4,9> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C1/> ;
+    nif:anchorOf "group" ;
+    nif:beginIndex 4 ;
+    nif:endIndex 9 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C1/#char=41,48> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C1/> ;
+    nif:anchorOf "wedding" ;
+    nif:beginIndex 41 ;
+    nif:endIndex 48 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C1/#group> a yago:Group100031264 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C1/#char=4,9> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C1/#people> a yago:People107942152 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C1/#char=13,19> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C1/#wedding> a yago:Wedding107452074 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C1/#char=41,48> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C2.txt> a ks:Representation ;
+    dc:format "text/plain" .
+
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C2/> ;
+    nif:anchorOf "man" ;
+    nif:beginIndex 2 ;
+    nif:endIndex 5 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,37> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C2/> ;
+    nif:anchorOf "wedding" ;
+    nif:beginIndex 30 ;
+    nif:endIndex 37 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C2/> ;
+    nif:anchorOf "function" ;
+    nif:beginIndex 38 ;
+    nif:endIndex 46 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C2/#function> a yago:Function100720565 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C2/#char=38,46> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C2/#man> a yago:Man110287213 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C2/#char=2,5> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C2/#wedding> a yago:Wedding107452074 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C2/#char=30,37> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C2/#woman> a yago:Woman110787470 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C3.txt> a ks:Representation ;
+    dc:format "text/plain" .
+
+<http://vksflickr30k.fbk.edu/resource/65567C3/#arm> a yago:Weapon104565375 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C3/#char=23,26> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C3/#char=16,19> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C3/> ;
+    nif:anchorOf "man" ;
+    nif:beginIndex 16 ;
+    nif:endIndex 19 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C3/#char=2,7> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C3/> ;
+    nif:anchorOf "woman" ;
+    nif:beginIndex 2 ;
+    nif:endIndex 7 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C3/#char=23,26> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C3/> ;
+    nif:anchorOf "arm" ;
+    nif:beginIndex 23 ;
+    nif:endIndex 26 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C3/#char=39,44> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C3/> ;
+    nif:anchorOf "event" ;
+    nif:beginIndex 39 ;
+    nif:endIndex 44 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C3/#event> a yago:Event100029378 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C3/#char=39,44> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C3/#man> a yago:Man110287213 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C3/#char=16,19> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C3/#woman> a yago:Woman110787470 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C3/#char=2,7> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C4.txt> a ks:Representation ;
+    dc:format "text/plain" .
+
+<http://vksflickr30k.fbk.edu/resource/65567C4/#building> a yago:Building102913152 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C4/#char=31,39> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C4/#char=10,15> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C4/> ;
+    nif:anchorOf "party" ;
+    nif:beginIndex 10 ;
+    nif:endIndex 15 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C4/#char=2,9> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C4/> ;
+    nif:anchorOf "wedding" ;
+    nif:beginIndex 2 ;
+    nif:endIndex 9 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C4/#char=31,39> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C4/> ;
+    nif:anchorOf "building" ;
+    nif:beginIndex 31 ;
+    nif:endIndex 39 ;
+    prov:wasAttributedTo vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C4/#party> a yago:Party108252602 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C4/#char=10,15> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C4/#wedding> a yago:Wedding107452074 ;
+    gaf:denotedBy <http://vksflickr30k.fbk.edu/resource/65567C4/#char=2,9> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C0/#char=0,13> a ks:TextualEntityMention ;
+    nif:anchorOf "A bearded man" ;
+    nif:beginIndex 0 ;
+    nif:endIndex 13 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C0/#char=20,26> a ks:TextualEntityMention ;
+    nif:anchorOf "a girl" ;
+    nif:beginIndex 20 ;
+    nif:endIndex 26 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C0/#char=30,41> a ks:TextualEntityMention ;
+    nif:anchorOf "a red dress" ;
+    nif:beginIndex 30 ;
+    nif:endIndex 41 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C1/#char=0,19> a ks:TextualEntityMention ;
+    nif:anchorOf "The group of people" ;
+    nif:beginIndex 0 ;
+    nif:endIndex 19 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C1/#char=39,48> a ks:TextualEntityMention ;
+    nif:anchorOf "a wedding" ;
+    nif:beginIndex 39 ;
+    nif:endIndex 48 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=0,5> a ks:TextualEntityMention ;
+    nif:anchorOf "a man" ;
+    nif:beginIndex 0 ;
+    nif:endIndex 5 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=28,46> a ks:TextualEntityMention ;
+    nif:anchorOf "a wedding function" ;
+    nif:beginIndex 28 ;
+    nif:endIndex 46 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C3/#char=0,7> a ks:TextualEntityMention ;
+    nif:anchorOf "A woman" ;
+    nif:beginIndex 0 ;
+    nif:endIndex 7 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C3/#char=14,26> a ks:TextualEntityMention ;
+    nif:anchorOf "a man 's arm" ;
+    nif:beginIndex 14 ;
+    nif:endIndex 26 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C3/#char=30,44> a ks:TextualEntityMention ;
+    nif:anchorOf "a formal event" ;
+    nif:beginIndex 30 ;
+    nif:endIndex 44 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C4/#char=0,15> a ks:TextualEntityMention ;
+    nif:anchorOf "A wedding party" ;
+    nif:beginIndex 0 ;
+    nif:endIndex 15 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C4/#char=29,39> a ks:TextualEntityMention ;
+    nif:anchorOf "a building" ;
+    nif:beginIndex 29 ;
+    nif:endIndex 39 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567I/#xywh=1,1,375,499> a ks:VisualEntityMention ;
+    ks:xmax 375 ;
+    ks:xmin 1 ;
+    ks:ymax 499 ;
+    ks:ymin 1 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567I/#xywh=1,62,330,499> a ks:VisualEntityMention ;
+    ks:xmax 330 ;
+    ks:xmin 1 ;
+    ks:ymax 499 ;
+    ks:ymin 62 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567I/#xywh=133,167,210,283> a ks:VisualEntityMention ;
+    ks:xmax 210 ;
+    ks:xmin 133 ;
+    ks:ymax 283 ;
+    ks:ymin 167 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567I/#xywh=172,168,311,500> a ks:VisualEntityMention ;
+    ks:xmax 311 ;
+    ks:xmin 172 ;
+    ks:ymax 500 ;
+    ks:ymin 168 ;
+    prov:wasAttributedTo vks:FlickrAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C0/> a ks:Resource,
+        ks:Text ;
+    ks:hasMention <http://vksflickr30k.fbk.edu/resource/65567C0/#char=0,13>,
+        <http://vksflickr30k.fbk.edu/resource/65567C0/#char=20,26>,
+        <http://vksflickr30k.fbk.edu/resource/65567C0/#char=30,41> ;
+    ks:storedAs <http://vksflickr30k.fbk.edu/resource/65567C0.txt> ;
+    nif:isString "A bearded man , and a girl in a red dress are getting married." ;
+    dct:identifier "65567C0" ;
+    dct:isPartOf <http://vksflickr30k.fbk.edu/resource/65567> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C1/> a ks:Resource,
+        ks:Text ;
+    ks:hasMention <http://vksflickr30k.fbk.edu/resource/65567C1/#char=0,19>,
+        <http://vksflickr30k.fbk.edu/resource/65567C1/#char=39,48> ;
+    ks:storedAs <http://vksflickr30k.fbk.edu/resource/65567C1.txt> ;
+    nif:isString "The group of people are assembling for a wedding." ;
+    dct:identifier "65567C1" ;
+    dct:isPartOf <http://vksflickr30k.fbk.edu/resource/65567> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15> a ks:TextualEntityMention ;
+    ks:mentionOf <http://vksflickr30k.fbk.edu/resource/65567C2/> ;
+    nif:anchorOf "woman" ;
+    nif:beginIndex 10 ;
+    nif:endIndex 15 ;
+    prov:wasAttributedTo vks:FlickrAnnotator,
+        vks:PikesAnnotator .
+
+<http://vksflickr30k.fbk.edu/resource/65567C4/> a ks:Resource,
+        ks:Text ;
+    ks:hasMention <http://vksflickr30k.fbk.edu/resource/65567C4/#char=0,15>,
+        <http://vksflickr30k.fbk.edu/resource/65567C4/#char=29,39> ;
+    ks:storedAs <http://vksflickr30k.fbk.edu/resource/65567C4.txt> ;
+    nif:isString "A wedding party walks out of a building." ;
+    dct:identifier "65567C4" ;
+    dct:isPartOf <http://vksflickr30k.fbk.edu/resource/65567> .
+
+<http://vksflickr30k.fbk.edu/resource/65567I/#xywh=162,96,333,497> a ks:VisualEntityMention ;
+    ks:xmax 333 ;
+    ks:xmin 162 ;
+    ks:ymax 497 ;
+    ks:ymin 96 .
+
+<http://vksflickr30k.fbk.edu/resource/65567I/#xywh=24,63,208,500> a ks:VisualEntityMention ;
+    ks:xmax 208 ;
+    ks:xmin 24 ;
+    ks:ymax 500 ;
+    ks:ymin 63 .
+
+<http://vksflickr30k.fbk.edu/resource/65567C2/> a ks:Resource,
+        ks:Text ;
+    ks:hasMention <http://vksflickr30k.fbk.edu/resource/65567C2/#char=0,5>,
+        <http://vksflickr30k.fbk.edu/resource/65567C2/#char=10,15>,
+        <http://vksflickr30k.fbk.edu/resource/65567C2/#char=28,46> ;
+    ks:storedAs <http://vksflickr30k.fbk.edu/resource/65567C2.txt> ;
+    nif:isString "a man and woman dressed for a wedding function." ;
+    dct:identifier "65567C2" ;
+    dct:isPartOf <http://vksflickr30k.fbk.edu/resource/65567> .
+
+<http://vksflickr30k.fbk.edu/resource/65567C3/> a ks:Resource,
+        ks:Text ;
+    ks:hasMention <http://vksflickr30k.fbk.edu/resource/65567C3/#char=0,7>,
+        <http://vksflickr30k.fbk.edu/resource/65567C3/#char=14,26>,
+        <http://vksflickr30k.fbk.edu/resource/65567C3/#char=30,44> ;
+    ks:storedAs <http://vksflickr30k.fbk.edu/resource/65567C3.txt> ;
+    nif:isString "A woman holds a man 's arm at a formal event." ;
+    dct:identifier "65567C3" ;
+    dct:isPartOf <http://vksflickr30k.fbk.edu/resource/65567> .
+
+vks:FlickrAnnotator a prov:Agent .
+
+vks:PikesAnnotator a prov:Agent .
+
