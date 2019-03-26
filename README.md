@@ -20,8 +20,9 @@ You can easily access our dataset for visual and textual enity recognition and l
 For indepth information and exploring VTKL dataset, explore the directories and files described below.
 
 ### Folders:
-1) ***PIKES_annotations*** consist of python script to extract entity mentions process by PIKES for entity recognition and linking.
-2) ***flickr30k annotation*** consist of flickr annotations and python script for extracting visual and textual information of original Flickr30k.
+1) ***Example*** consist of a single entry of VTKL dataset process by PIKES with Flickr30k files.
+2) ***PIKES_annotations*** consist of python script to extract entity mentions process by PIKES for entity recognition and linking.
+3) ***flickr30k annotation*** consist of flickr annotations and python script for extracting visual and textual information of original Flickr30k.
 
 ### Files:
 1) **300 random images for evaluations -error_free.ttl** consists of VTKL dataset for 300 randomly selected entries for VTKEL task. The error of these 300 images dataset are fixed manually by selecting each incorrect mention process by PIKES.
