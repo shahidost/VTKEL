@@ -45,11 +45,13 @@ For indepth information and exploring VTKL dataset, explore the directories, fil
 > python pikes_annotations.py
 ```
 3. Download files from ***flickr30k annotations*** .
-4. Update files path of ***flickr_annotations.py*** in ***flickr30k annotations*** .
+4. Update file path of ***flickr_annotations.py*** in ***flickr30k annotations*** .
 5. Run *flickr_annotations.py* by using command:
 ```
 > python flickr_annotations.py
 ```
+### Quality of VTKL dataset:
+We checked and calculate the quality of VTKL dataset by exploiting manually for 4585 mentions of randomly selected 300 entries, which is **96.5%**.
 
 ## Citing VTKL dataset
 If you use the data, code or concepts of VTKEL in your research work, please cite:
