@@ -64,5 +64,11 @@ TBW {@ABC{VTKL,
 ```
 ### License
 The VTKL dataset and their codes are licensed under GNU General Public License, version 3 or later.
+### References:
+- [Flickr30k](http://slazebni.cs.illinois.edu/publications/ijcv16_flickr30k.pdf)
+- [PIKES](http://pikes.fbk.eu)
+- [YAGO](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/)
+
+
 ### Contact
 If you have any query regarding VTKL or codes or want to contribute to VTKL dataset or VTKEL task contact on *shahidost[at]gmail.com*.
