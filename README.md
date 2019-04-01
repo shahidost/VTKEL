@@ -31,7 +31,7 @@ For indepth information and exploring VTKL dataset, explore the directories, fil
 3. [VTKL](https://figshare.com/account/projects/61421/articles/7882781) dataset for 31781 images.
 
 ### Prerequisites:
-- Python 3.6(+)
+- Python 3.6 (+)
 - window or unix machine
 - rdflib library 4.2.2
 - numpy library 1.16.0
@@ -73,4 +73,4 @@ The VTKL dataset and their codes are licensed under GNU General Public License, 
 
 
 ### Contact
-If you have any query regarding VTKL, code, want to contribute to VTKL dataset, or VTKEL task contact on *shahidost[at]gmail.com*.
+If you have any query regarding VTKL, code, want to contribute to VTKL dataset, or VTKEL task contact on ***sdost[at]fbk.eu***.
