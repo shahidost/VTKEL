@@ -22,19 +22,19 @@ For indepth information and exploring VTKL dataset, explore the directories, fil
 
 ### Folders:
 1. ***Example*** consist of a single entry of VTKL dataset process by PIKES with Flickr30k files.
-2. ***PIKES_annotations*** consist of python script to extract entity mentions process by PIKES for entity recognition and linking.
-3. ***flickr30k annotation*** consist of flickr annotations and python script for extracting visual and textual information of original Flickr30k.
+2. ***PIKES_annotations*** consists of python script to extract entity mentions process by PIKES for entity recognition and linking.
+3. ***flickr30k annotation*** consists of flickr annotations and python script for extracting visual and textual information of original Flickr30k.
 
 ### Files:
-1. **300 random images for evaluations -error_free.ttl** consists of VTKL dataset for 300 randomly selected entries for VTKEL task. The error of these 300 images dataset are fixed manually by selecting each incorrect mention process by PIKES.
-2. **Incorrect NER and linking mention.xlsx** consists of all error cases which are wrongly process by PIKES for NER and entites linking for VTKL dataset and the results of our evaluation.
+1. **300 random images for evaluations -error_free.ttl** consists of VTKL dataset for 300 randomly selected entries for VTKEL task. We manually checked the entity mentions for 300 randomly selected entries and fixed each incorrect mention process by PIKES.
+2. **Incorrect NER and linking mention.xlsx** consists of all error cases which are wrongly process by PIKES for entity recognition and linking.
 3. [VTKL](https://figshare.com/account/projects/61421/articles/7882781) dataset for 31781 images.
 
 ### Prerequisites:
 - Python 3.6(+)
 - window or unix machine
-- rdflib library
-- numpy library
+- rdflib library 4.2.2
+- numpy library 1.16.0
 - xml.etree.ElementTree library
 
 ### Running VTKL dataset:
@@ -73,4 +73,4 @@ The VTKL dataset and their codes are licensed under GNU General Public License, 
 
 
 ### Contact
-If you have any query regarding VTKL or codes or want to contribute to VTKL dataset or VTKEL task contact on *shahidost[at]gmail.com*.
+If you have any query regarding VTKL, code, want to contribute to VTKL dataset, or VTKEL task contact on *shahidost[at]gmail.com*.
