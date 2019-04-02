@@ -56,16 +56,17 @@ We checked and calculate the quality of VTKL dataset by exploiting manually for 
 ## Citing VTKL dataset
 If you use the data, code or concepts of VTKEL in your research work, please cite:
 ```
-TBW {@ABC{VTKL,
-      author    = {ABC},
-      title     = {{ABC}},
-      ABC = {ABC},
-      pages     = {000--000},
-      year      = {2019}
-    }}
+@article{Dost2019,
+      author = "Shahi Dost, Luciano Serafini, Marco Rospocher, Lamberto Ballan and Alessandro Sperduti",
+      title = "{VTKEL: A resource for  Visual-Textual-Knowledge Entity Linking}",
+      year = "2019",
+      month = "4",
+      url = "https://figshare.com/articles/VTKL_dataset_file/7882781",
+      doi = "10.6084/m9.figshare.7882781.v3"
+}
 ```
 ### License
-The VTKL dataset and their codes are licensed under GNU General Public License, version 3 or later.
+The VTKL dataset and their codes are licensed under **CC BY 4.0** License or later.
 ### References:
 - [Flickr30k](http://slazebni.cs.illinois.edu/publications/ijcv16_flickr30k.pdf)
 - [PIKES](http://pikes.fbk.eu)
