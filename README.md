@@ -28,7 +28,7 @@ For indepth information and exploring VTKL dataset, explore the directories, fil
 ### Files:
 1. **VTKEL error free (300 documents).ttl** consists of VTKL dataset for 300 randomly selected entries for VTKEL task. We manually checked the entity mentions for 300 randomly selected entries and fixed each incorrect mention process by PIKES.
 2. **Incorrect NER and linking mention.xlsx** consists of all error cases which are wrongly process by PIKES for entity recognition and linking.
-3. [VTKL](https://figshare.com/account/projects/61421/articles/7882781) dataset for 31781 images.
+3. [VTKL](https://figshare.com/articles/VTKL_dataset_file/7882781) dataset for 31781 images.
 
 ### Prerequisites:
 - Python 3.6 (+)
@@ -74,4 +74,4 @@ The VTKL dataset and their codes are licensed under **CC BY 4.0** License or lat
 
 
 ### Contact
-If you have any query regarding VTKL, code, want to contribute to VTKL dataset, or VTKEL task contact on ***sdost[at]fbk.eu***.
+If you have any query regarding VTKL dataset, code, want to contribute to VTKL dataset, or VTKEL task contact on ***sdost[at]fbk.eu***.
