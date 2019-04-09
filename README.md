@@ -26,7 +26,7 @@ For indepth information and exploring VTKL dataset, explore the directories, fil
 3. ***flickr30k annotation*** consists of flickr annotations and python script for extracting visual and textual information of original Flickr30k.
 
 ### Files:
-1. **300 random images for evaluations -error_free.ttl** consists of VTKL dataset for 300 randomly selected entries for VTKEL task. We manually checked the entity mentions for 300 randomly selected entries and fixed each incorrect mention process by PIKES.
+1. **VTKEL error free (300 documents).ttl** consists of VTKL dataset for 300 randomly selected entries for VTKEL task. We manually checked the entity mentions for 300 randomly selected entries and fixed each incorrect mention process by PIKES.
 2. **Incorrect NER and linking mention.xlsx** consists of all error cases which are wrongly process by PIKES for entity recognition and linking.
 3. [VTKL](https://figshare.com/account/projects/61421/articles/7882781) dataset for 31781 images.
 
