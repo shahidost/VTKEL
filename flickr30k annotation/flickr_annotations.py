@@ -2,10 +2,6 @@
 """
 Created on Mon Mar 25, 2019 12:00:40 2019
 
-@author: Shahi Dost (shahidost@gmail.com)
-
-@took help from original Flickr30k
-
 Description: This script is for extracting image(s) annotations (both visual and textual) from Flickr30k for accessing VTKL dataset
 """
 
