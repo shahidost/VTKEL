@@ -1,4 +1,6 @@
 ## Visual-Textual-Knowledge Entity Linking (VTKL) dataset
+This repositroy includes **VTKL** dataset and related files developed for ***visual-textual*** alignment with links to **YAGO ontology** for entity recognition and linking. 
+
 ### Introduction
 VTKL dataset, contains documents composed of pictures with five corresponding textual captions for each image. The VTKL dataset is obtained by extending the **Flikr30k** dataset, designed for visual-textual mention alignment, with links to **YAGO ontolgy**, one of the largest *web knowledge base*. These links are obtained automatically by processing each image caption with **PIKES**, an *NLP* tool for *entity recognition* and *linking*. 
 
@@ -53,20 +55,25 @@ For indepth information and exploring VTKL dataset, explore the directories, fil
 ### Quality of VTKL dataset:
 We checked and calculate the quality of VTKL dataset by exploiting manually for 4585 mentions of randomly selected 300 entries, which is **96.5%**.
 
-## Citing VTKL dataset
+## Citing VTKL dataset:
 If you use the data, code or concepts of VTKEL in your research work, please cite:
 ```
 @article{Dost2019,
-      author = "Shahi Dost, Luciano Serafini, Marco Rospocher, Lamberto Ballan and Alessandro Sperduti",
+      author = "Shahi Dost and Luciano Serafini and Marco Rospocher and Lamberto Ballan and Alessandro Sperduti",
       title = "{VTKEL: A resource for  Visual-Textual-Knowledge Entity Linking}",
       year = "2019",
       month = "4",
       url = "https://figshare.com/articles/VTKL_dataset_file/7882781",
-      doi = "10.6084/m9.figshare.7882781.v3"
+      doi = "10.6084/m9.figshare.7882781.v4"
 }
 ```
-### License
+### License:
 The VTKL dataset and their codes are licensed under **CC BY 4.0** License or later.
+### Contributors:
+- [Luciano Serafini](https://dkm.fbk.eu/people/profile/serafini)
+- [Alessandro Sperduti](https://www.math.unipd.it/~sperduti/)
+- [Marco Rospocher](https://scholar.google.com/citations?user=wkAcWjMAAAAJ&hl=en)
+- [Lamberto Ballan](http://www.lambertoballan.net/)
 ### References:
 - [Flickr30k](http://slazebni.cs.illinois.edu/publications/ijcv16_flickr30k.pdf)
 - [PIKES](http://pikes.fbk.eu)
