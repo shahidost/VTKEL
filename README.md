@@ -68,16 +68,18 @@ If you use the data, code or concepts of VTKEL in your research work, please cit
 }
 ```
 ### License:
-The VTKEL dataset and their codes are licensed under **CC BY 4.0**.
+The VTKEL dataset and their codes are licensed under [CC BY 4.0](https://creativecommons.org/2014/01/07/plaintext-versions-of-creative-commons-4-0-licenses/).
 ### Contributors:
 - [Luciano Serafini](https://dkm.fbk.eu/people/profile/serafini)
 - [Alessandro Sperduti](https://www.math.unipd.it/~sperduti/)
 - [Marco Rospocher](https://scholar.google.com/citations?user=wkAcWjMAAAAJ&hl=en)
 - [Lamberto Ballan](http://www.lambertoballan.net/)
+- [Francesco Corcoglioniti](https://scholar.google.com/citations?user=Nw7gPMEAAAAJ&hl=en)
+
 ### References:
-- [Flickr30k](http://slazebni.cs.illinois.edu/publications/ijcv16_flickr30k.pdf)
-- [PIKES](http://pikes.fbk.eu)
 - [YAGO](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/)
+- [PIKES](http://pikes.fbk.eu)
+- [Flickr30k](http://bryanplummer.com/Flickr30kEntities/)
 
 
 ### Contact
