@@ -58,13 +58,12 @@ We checked and calculate the quality of VTKEL dataset by exploiting manually che
 ## Citing VTKEL dataset:
 If you use the data, code or concepts of VTKEL in your research work, please cite:
 ```
-@article{Dost2019,
-      author = "Shahi Dost and Luciano Serafini and Marco Rospocher and Lamberto Ballan and Alessandro Sperduti",
-      title = "{VTKEL: A resource for  Visual-Textual-Knowledge Entity Linking}",
-      year = "2019",
-      month = "4",
-      url = "https://figshare.com/articles/VTKL_dataset_file/7882781",
-      doi = "10.6084/m9.figshare.7882781.v4"
+@inproceedings{dost2020vtkel,
+  title={VTKEL: a resource for visual-textual-knowledge entity linking},
+  author={Dost, Shahi and Serafini, Luciano and Rospocher, Marco and Ballan, Lamberto and Sperduti, Alessandro},
+  booktitle={Proceedings of the 35th Annual ACM Symposium on Applied Computing},
+  pages={2021--2028},
+  year={2020}
 }
 ```
 ### License:
